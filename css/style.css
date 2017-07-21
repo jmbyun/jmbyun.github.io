@@ -1,0 +1,15 @@
+
+.profile-image {
+  max-width: 40%;
+  width: 220px;
+  height: auto;
+}
+
+.link-in-list {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.sparse-list li {
+  padding-bottom: 8px;
+}
