@@ -67,16 +67,16 @@ header .text {
   width: 75%;
 }
 
-header .text .about {
-  font-weight: lighter;
-}
-
 @media (max-width: 768px) {
-  header .about {
+  header .text {
     padding: 0;
     float: none;
     width: 100%;
   }
+}
+
+header .text .about {
+  font-weight: lighter;
 }
 
 header .profile {
