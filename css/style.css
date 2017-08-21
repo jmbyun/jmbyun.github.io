@@ -1,15 +1,126 @@
 
-.profile-image {
-  max-width: 40%;
-  width: 220px;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700');
+
+* {
+  box-sizing: border-box;
+}
+
+a,
+a:active,
+a:hover,
+a:link,
+a:visited {
+  cursor: pointer;
+  text-decoration: none;
+  color: #DD6684;
+  font-weight: normal;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.u-yellow {
+  color: #F1C344;
+}
+
+body {
+  background-color: #222;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px 32px;
+  width: 100%;
+  max-width: 1024px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 12px 12px;
+  }
+}
+
+header {
+  display: block;
+  overflow: hidden;
+}
+
+header h1 {
+  font-size: 40px;
+  font-weight: normal;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    display: block;
+    font-size: 36px;
+    text-align: center;
+  }
+}
+
+header .text {
+  padding: 0 24px 0 0;
+  float: left;
+  width: 75%;
+}
+
+header .text .about {
+  font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+  header .about {
+    padding: 0;
+    float: none;
+    width: 100%;
+  }
+}
+
+header .profile {
+  float: right;
+  width: 25%;
+}
+
+@media (max-width: 768px) {
+  header .profile {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+header .profile img {
+  border-radius: 50%;
+  width: 100%;
   height: auto;
 }
 
-.link-in-list {
-  display: inline-block;
-  margin-right: 8px;
+@media (max-width: 768px) {
+  header .profile img {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 250px;
+  }
 }
 
-.sparse-list li {
-  padding-bottom: 8px;
+.main {
+  font-weight: lighter;
+}
+
+.main strong {
+  color: #F1C344;
+}
+
+.main h2 {
+  padding-top: 24px;
+  font-weight: normal;
+}
+
+@media (max-width: 768px) {
+  .main h2 {
+    padding: 0;
+  }
 }

@@ -7,155 +7,30 @@
   <title>Jeongmin Byun</title>
   <meta name="description" content="Jeongmin Byun's homepage">
 
-  <link href="./css/minimal.css" rel="stylesheet">
-  <link href="./css/style.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet"></link>
+  <script src="./lib/axios.min.js"></script>
+  <script src="./lib/marked.min.js"></script>
 </head>
 <body>
   <div class="container">
     <header>
-      <span class="logo">Jeongmin Byun</span>
-      <!-- <nav class="float-right">
-        <ul>
-          <li><a href="./assets/homer-simpson-cv.pdf">Link to CV</a></li>
-        </ul>
-      </nav> -->
+      <h1 class="u-yellow">Jeongmin <strong>Byun</strong></h1>
+      <div class="profile">
+        <img src="./assets/jeongmin.jpg" />
+      </div>
+      <div class="text">
+        <div class="about" id="about">
+          Loading...
+          <!-- About -->
+        </div>
+      </div>
     </header>
 
-    <div class="row">
-      <img class="profile-image float-left" src="./assets/jeongmin.jpg">
-      <!-- <p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque suscipit enim, quis pulvinar nisl.
-				Aliquam vulputate tincidunt lorem, nec condimentum dolor porta ut. Quisque sem ex, finibus quis ligula non,
-				lobortis tristique magna. Praesent nec euismod sapien. Nulla facilisis rhoncus erat in fermentum.
-				Etiam lobortis gravida nisl eget ultrices. In iaculis velit sit amet condimentum blandit.
-				Praesent at libero finibus, pharetra nibh ut, semper dui. Nulla dapibus ante vitae odio accumsan malesuada.
-				Ut est massa, dignissim eu leo consequat, lobortis ornare justo.
-      </p>
-      <p>
-        Maecenas non justo laoreet, blandit nunc ut, ultrices ex. Pellentesque cursus odio id eros cursus,
-				tempus maximus libero consequat. Ut at ullamcorper nunc. Vivamus ac arcu erat.
-				Suspendisse ut sollicitudin dui, eget elementum mauris. In finibus id mi eget fermentum. Donec nec posuere neque,
-				at mattis magna. Nunc sodales turpis nec venenatis vulputate. Donec id ex euismod, sollicitudin orci id,
-				imperdiet dui. Aenean sed nibh a enim lobortis bibendum at id magna. Morbi nec gravida leo.
-      </p> -->
-    </div>
-
-    <hr />
-
-    <div class="row">
-      <div class="col-6">
-        <h2>Education</h2>
-        <ul>
-          <li>KAIST, Ph.D., School of Computing, 2015 - Present</li>
-          <li>KAIST, M.S., School of Computing, 2015</li>
-          <li>KAIST, B.S., Computer Science, 2013</li>
-        </ul>
-      </div>
-      <div class="col-6">
-        <h2>Work Experience</h2>
-        <ul>
-          <li><b>Developer Intern</b>, TREUM Co., Ltd., Seoul, South Korea, 2012 - 2012</li>
-          <li><b>Developer</b>, NBT Partners LLC., Seoul, South Korea 2013 - 2013</li>
-        </ul>
-      </div>
-    </div>
-
-    <hr />
-
-    <div class="row">
-      <h2>Publications</h2>
-      <ol class="sparse-list">
-        <li>
-          Understanding Editing Behaviors in Multilingual Wikipedia<br />
-          Suin Kim, Sungjoon Park, Scott A. Hale, Sooyoung Kim, <b>Jeongmin Byun</b>, and Alice Oh<br />
-          PLOS ONE (2016)<br />
-          <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0155305" class="link-in-list">Article</a>
-        </li>
-        <li>
-          Multilingual Wikipedia: Editors of Primary Language Contribute to More Complex Articles<br />
-          Sungjoon Park, Suin Kim, Scott A. Hale, Sooyoung Kim, <b>Jeongmin Byun</b> and Alice Oh.<br />
-          Wiki-ICWSM'15 workshop<br />
-          <a href="http://uilab.kr/research/ICWSM15/multilingual_wikipedia.pdf" class="link-in-list">Article</a>
-          <a href="http://uilab.kr/research/ICWSM15/ICWSM2015-Poster.pdf" class="link-in-list">Slides</a>
-        </li>
-      </ol>
-    </div>
-
-    <!-- <hr /> -->
-
-    <!-- <div class="row">
-      <h2>Academic Services</h2>
-      <ul>
-        <li>Subreviewer, NCL 2015</li>
-        <li>Reviewer, NCL 2015</li>
-        <li>Member, Association for Nuclear Engineers</li>
-        <li>Member, Springfield Institute of Nuclear Engineers</li>
-      </ul>
-    </div> -->
-
-    <hr />
-
-    <div class="row">
-      <h2>References</h2>
-      <ul>
-        <li>
-          Alice Oh, Associate Professor, Computer Science, KAIST
-        </li>
-      </ul>
-    </div>
-
-    <!-- <hr /> -->
-
-    <!-- <div class="row">
-      <h2>Research Statement</h2>
-      <p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque suscipit enim, quis pulvinar nisl.
-				Aliquam vulputate tincidunt lorem, nec condimentum dolor porta ut. Quisque sem ex, finibus quis ligula non,
-				lobortis tristique magna. Praesent nec euismod sapien. Nulla facilisis rhoncus erat in fermentum.
-				Etiam lobortis gravida nisl eget ultrices. In iaculis velit sit amet condimentum blandit.
-				Praesent at libero finibus, pharetra nibh ut, semper dui. Nulla dapibus ante vitae odio accumsan malesuada.
-				Ut est massa, dignissim eu leo consequat, lobortis ornare justo.
-      </p>
-      <p>
-        Maecenas non justo laoreet, blandit nunc ut, ultrices ex. Pellentesque cursus odio id eros cursus,
-				tempus maximus libero consequat. Ut at ullamcorper nunc. Vivamus ac arcu erat.
-				Suspendisse ut sollicitudin dui, eget elementum mauris. In finibus id mi eget fermentum. Donec nec posuere neque,
-				at mattis magna. Nunc sodales turpis nec venenatis vulputate. Donec id ex euismod, sollicitudin orci id,
-				imperdiet dui. Aenean sed nibh a enim lobortis bibendum at id magna. Morbi nec gravida leo.
-      </p>
-      <p>
-				<b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit. Sed pellentesque suscipit enim, quis pulvinar nisl.
-				Aliquam vulputate tincidunt lorem, nec condimentum dolor porta ut. Quisque sem ex, finibus quis ligula non,
-				lobortis tristique magna. Praesent nec euismod sapien. Nulla facilisis rhoncus erat in fermentum.
-				Etiam lobortis gravida nisl eget ultrices. In iaculis velit sit amet condimentum blandit.
-				Praesent at libero finibus, pharetra nibh ut, semper dui. Nulla dapibus ante vitae odio accumsan malesuada.
-				Ut est massa, dignissim eu leo consequat, lobortis ornare justo.
-      </p>
-      <p>
-        <b>Maecenas non justo laoreet</b>, blandit nunc ut, ultrices ex. Pellentesque cursus odio id eros cursus,
-				tempus maximus libero consequat. Ut at ullamcorper nunc. Vivamus ac arcu erat.
-				Suspendisse ut sollicitudin dui, eget elementum mauris. In finibus id mi eget fermentum. Donec nec posuere neque,
-				at mattis magna. Nunc sodales turpis nec venenatis vulputate. Donec id ex euismod, sollicitudin orci id,
-				imperdiet dui. Aenean sed nibh a enim lobortis bibendum at id magna. Morbi nec gravida leo.
-      </p>
-    </div> -->
-
-    <hr />
-
-    <div class="row">
-      <h2>Contact</h2>
-      <p>
-        Jeongmin Byun <br />
-        jmbyun (at) kaist.ac.kr <br />
-        Ph.D. Student <br />
-        KAIST <br />
-        Daejeon, South Korea <br />
-      </p>
-    </div>
-
-    <footer>
-        <a class="float-right" href="http://minimalcss.com">Minimal</a>
-    </footer>
+    <section class="main" id="body">
+      Loading...
+      <!-- Body -->
+    </section>
   </div>
+  <script src="./js/script.js"></script>
 </body>
 </html>
