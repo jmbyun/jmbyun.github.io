@@ -60,5 +60,5 @@ Ut est massa, dignissim eu leo consequat, lobortis ornare justo -->
 Jeongmin Byun  
 jmbyun (at) kaist.ac.kr  
 Ph.D. Student  
-KAIST  
+Korea Advanced Institute of Science and Technology  
 Daejeon, South Korea  
