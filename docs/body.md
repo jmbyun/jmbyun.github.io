@@ -1,18 +1,9 @@
 
 ## Education
 
-- KAIST, Ph.D., School of Computing, 2015 - Present
-- KAIST, M.S., School of Computing, 2015
-- KAIST, B.S., Computer Science, 2013
-
-## Work Experience
-
-- **Developer Intern**, TREUM Co., Ltd., Seoul, South Korea, 2012.6 - 2012.8
-- **Developer**, NBT Partners LLC., Seoul, South Korea 2013.1 - 2013.9
-
-<!-- ## Teaching Experience
-
-- -->
+- Korea Advanced Institute of Science and Technology, Ph.D., School of Computing, 2015 - Present
+- Korea Advanced Institute of Science and Technology, M.S., School of Computing, 2015
+- Korea Advanced Institute of Science and Technology, B.S., Computer Science, 2013
 
 ## Publications
 
@@ -31,6 +22,22 @@
 
 -  -->
 
+## Work Experiences
+
+- **Software Developer Intern**, TREUM Co., Ltd., Seoul, South Korea, 2012.6 - 2012.8
+- **Software Developer**, NBT Partners LLC., Seoul, South Korea 2013.1 - 2013.9
+
+## Teaching Experiences
+
+- **CS101 Introduction to Programming**, Korea Advanced Institute of Science and Technology  
+  Teaching Assistant (Spring/Fall 2011, Spring 2013, Spring/Fall 2014)  
+  Head Teaching Assistant (Spring/Fall 2017)
+- **CS206 Data Structure**, Korea Advanced Institute of Science and Technology  
+  Teaching Assistant (Fall 2013, Fall 2015, and Spring/Fall 2016)
+- **CS636 UX-oriented Platform Design Studio**, Korea Advanced Institute of Science and Technology  
+  Head Teaching Assistant (Fall 2014)
+
+
 ## Academic Services
 
 - Member, Association for Computing Machinery
@@ -39,27 +46,14 @@
 
 - Alice Oh, Associate Professor, Computer Science, KAIST
 
-## Research Statement
+<!-- ## Research Statement
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque suscipit enim, quis pulvinar nisl.
 Aliquam vulputate tincidunt lorem, nec condimentum dolor porta ut. Quisque sem ex, finibus quis ligula non,
 lobortis tristique magna. Praesent nec euismod sapien. Nulla facilisis rhoncus erat in fermentum.
 Etiam lobortis gravida nisl eget ultrices. In iaculis velit sit amet condimentum blandit.
 Praesent at libero finibus, pharetra nibh ut, semper dui. Nulla dapibus ante vitae odio accumsan malesuada.
-Ut est massa, dignissim eu leo consequat, lobortis ornare justo.
-
-Maecenas non justo laoreet, blandit nunc ut, ultrices ex. Pellentesque cursus odio id eros cursus,
-tempus maximus libero consequat. Ut at ullamcorper nunc. Vivamus ac arcu erat.
-Suspendisse ut sollicitudin dui, eget elementum mauris. In finibus id mi eget fermentum. Donec nec posuere neque,
-at mattis magna. Nunc sodales turpis nec venenatis vulputate. Donec id ex euismod, sollicitudin orci id,
-imperdiet dui. Aenean sed nibh a enim lobortis bibendum at id magna. Morbi nec gravida leo.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque suscipit enim, quis pulvinar nisl.
-Aliquam vulputate tincidunt lorem, nec condimentum dolor porta ut. Quisque sem ex, finibus quis ligula non,
-lobortis tristique magna. Praesent nec euismod sapien. Nulla facilisis rhoncus erat in fermentum.
-Etiam lobortis gravida nisl eget ultrices. In iaculis velit sit amet condimentum blandit.
-Praesent at libero finibus, pharetra nibh ut, semper dui. Nulla dapibus ante vitae odio accumsan malesuada.
-Ut est massa, dignissim eu leo consequat, lobortis ornare justo.
+Ut est massa, dignissim eu leo consequat, lobortis ornare justo -->
 
 ## Contact
 

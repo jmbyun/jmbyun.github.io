@@ -20,14 +20,11 @@ a:hover {
   text-decoration: underline;
 }
 
-.u-yellow {
-  color: #F1C344;
-}
-
 body {
   background-color: #222;
   font-family: 'Open Sans', sans-serif;
   color: #fff;
+  line-height: 1.5em;
 }
 
 .container {
@@ -45,17 +42,27 @@ body {
 
 header {
   display: block;
+  padding: 72px 0;
   overflow: hidden;
 }
 
+@media (max-width: 768px) {
+  header {
+    padding: 0;
+  }
+}
+
 header h1 {
+  padding-bottom: 64px;
   font-size: 40px;
   font-weight: normal;
+  color: #F1C344;
 }
 
 @media (max-width: 768px) {
   header h1 {
     display: block;
+    padding: 0;
     font-size: 36px;
     text-align: center;
   }
@@ -115,7 +122,7 @@ header .profile img {
 }
 
 .main h2 {
-  padding-top: 24px;
+  padding-top: 64px;
   font-weight: normal;
 }
 
