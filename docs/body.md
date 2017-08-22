@@ -1,9 +1,12 @@
 
 ## Education
 
-- Korea Advanced Institute of Science and Technology, Ph.D., School of Computing, 2015 - Present
-- Korea Advanced Institute of Science and Technology, M.S., School of Computing, 2015
-- Korea Advanced Institute of Science and Technology, B.S., Computer Science, 2013
+- *Korea Advanced Institute of Science and Technology*  
+  Ph.D., School of Computing, 2015 - Present
+- *Korea Advanced Institute of Science and Technology*  
+  M.S., School of Computing, 2015
+- *Korea Advanced Institute of Science and Technology*  
+  B.S., Computer Science, 2013
 
 ## Publications
 
@@ -24,17 +27,19 @@
 
 ## Work Experiences
 
-- **Software Developer Intern**, TREUM Co., Ltd., Seoul, South Korea, 2012.6 - 2012.8
-- **Software Developer**, NBT Partners LLC., Seoul, South Korea 2013.1 - 2013.9
+- *Software Developer Intern*  
+  TREUM Co., Ltd., Seoul, South Korea, 2012.6 - 2012.8
+- *Software Developer*  
+  NBT Partners LLC., Seoul, South Korea 2013.1 - 2013.9
 
 ## Teaching Experiences
 
-- **CS101 Introduction to Programming**, Korea Advanced Institute of Science and Technology  
+- *CS101 Introduction to Programming*, Korea Advanced Institute of Science and Technology  
   Teaching Assistant (Spring/Fall 2011, Spring 2013, Spring/Fall 2014)  
   Head Teaching Assistant (Spring/Fall 2017)
-- **CS206 Data Structure**, Korea Advanced Institute of Science and Technology  
+- *CS206 Data Structure*, Korea Advanced Institute of Science and Technology  
   Teaching Assistant (Fall 2013, Fall 2015, and Spring/Fall 2016)
-- **CS636 UX-oriented Platform Design Studio**, Korea Advanced Institute of Science and Technology  
+- *CS636 UX-oriented Platform Design Studio*, Korea Advanced Institute of Science and Technology  
   Head Teaching Assistant (Fall 2014)
 
 
