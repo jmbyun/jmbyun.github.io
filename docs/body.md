@@ -10,6 +10,12 @@
 
 ## Publications
 
+
+1. **Subword-level Word Vector Representations for Korean**  
+  Sungjoon Park, **Jeongmin Byun**, Sion Baek, Yongseok Cho and Alice Oh  
+  Association for Computational Linguistics (2018)  
+  [Article](https://aclanthology.info/papers/P18-1226/p18-1226)
+
 1. **Understanding Editing Behaviors in Multilingual Wikipedia**  
   Suin Kim, Sungjoon Park, Scott A. Hale, Sooyoung Kim, **Jeongmin Byun**, and Alice Oh  
   PLOS ONE (2016)  
