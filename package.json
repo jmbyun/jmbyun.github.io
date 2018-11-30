@@ -18,13 +18,17 @@
   "dependencies": {
     "bulma": "^0.7.2",
     "font-awesome": "^4.7.0",
+    "humps": "^2.0.1",
+    "node-sass": "^4.10.0",
     "normalize.css": "^7.0.0",
     "object-assign": "^4.1.1",
-    "promise-polyfill": "^6.0.2"
+    "promise-polyfill": "^6.0.2",
+    "vue-markdown": "^2.2.4"
   },
   "devDependencies": {
     "poi": "^9.0.0",
     "poi-preset-bundle-report": "^2.0.0",
+    "sass-loader": "^7.1.0",
     "serve": "^6.1.0"
   }
 }

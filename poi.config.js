@@ -15,11 +15,10 @@ module.exports = {
     template: path.join(__dirname, 'index.ejs'),
   },
   postcss: {
-    plugins: [
-      // Your postcss plugins
-    ],
+    plugins: [],
   },
   presets: [
     require('poi-preset-bundle-report')(),
   ],
+  plugins: [],
 };
