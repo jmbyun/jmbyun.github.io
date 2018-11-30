@@ -1,8 +1,8 @@
 {
   "private": true,
   "name": "jmbyun.github.io",
-  "productName": "jmbyun.github.io",
-  "description": "An easy-to-maintain academic personal website built on top of Google Sheets and Github Pages.",
+  "productName": "Jeongmin Byun",
+  "description": "A personal homepage of Jeongmin Byun.",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -16,6 +16,8 @@
     "email": "jmbyun91@gmail.com"
   },
   "dependencies": {
+    "bulma": "^0.7.2",
+    "font-awesome": "^4.7.0",
     "normalize.css": "^7.0.0",
     "object-assign": "^4.1.1",
     "promise-polyfill": "^6.0.2"

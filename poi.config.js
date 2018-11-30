@@ -8,11 +8,10 @@ module.exports = {
   ],
   output: {
     publicUrl: '/dist',
-
   },
   html: {
-    title: 'Jeongmin Byun',
-    // description: pkg.description,
+    title: pkg.productName,
+    description: pkg.description,
     template: path.join(__dirname, 'index.ejs'),
   },
   postcss: {
