@@ -1,35 +1,40 @@
 <template>
-  <div class="index container">
-    <div class="columns">
-      <div class="column is-one-third is-padding-vertical-6">
-        <div class="title has-text-centered">
-          {{ contents.name }}
-        </div>
-        <img 
-          class="profile"
-          :src="contents.image"
-        />
-        <vue-markdown
-          class="content has-text-centered"
-          :source="contents.shortcontact"
-        ></vue-markdown>
-      </div>
-      <div class="column is-padding-vertical-6">
-        <div class="content">
-          <div 
-            v-for="sectionId in contents.body"
-            :key="sectionId"
-          >
-            <publications 
-              v-if="sectionId === 'publications'"
-              class="is-padding-bottom-4"
+  <div class="index">
+    <div class="is-fixed is-viewport-height is-full-width">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-one-third is-padding-vertical-6 is-hidden-mobile">
+            <nav-column
               :contents="contents"
-            ></publications>
-            <vue-markdown
-              v-else
-              class="is-padding-bottom-4"
-              :source="contents[sectionId]"
-            ></vue-markdown>
+            ></nav-column>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="columns">
+        <div class="column is-one-third is-padding-vertical-6 is-hidden-tablet">
+          <nav-column
+            :contents="contents"
+          ></nav-column>
+        </div>
+        <div class="column is-offset-one-third is-padding-6">
+          <div class="content">
+            <div 
+              v-for="sectionId in contents.body"
+              :key="sectionId"
+            >
+              <publications 
+                v-if="sectionId === 'publications'"
+                class="is-padding-bottom-4"
+                :contents="contents"
+              ></publications>
+              <vue-markdown
+                v-else
+                class="is-padding-bottom-4"
+                :source="contents[sectionId]"
+              ></vue-markdown>
+            </div>
           </div>
         </div>
       </div>
@@ -39,6 +44,7 @@
 
 <script>
 import VueMarkdown from 'vue-markdown';
+import NavColumn from './NavColumn';
 import Publications from './Publications';
 export default {
   name: 'index',
@@ -48,6 +54,7 @@ export default {
   ],
   components: {
     VueMarkdown,
+    NavColumn,
     Publications,
   },
   data() {
@@ -57,14 +64,3 @@ export default {
   watch: {}
 };
 </script>
-
-<style lang="scss" scoped>
-  .profile {
-    display: block;
-    border-radius: 50%;
-    margin: 3rem auto;
-    width: 40%;
-    max-width: 250px;
-    height: auto;
-  }
-</style>

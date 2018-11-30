@@ -51,5 +51,27 @@ export default {
       padding-top: #{$i * 0.5}rem;
       padding-bottom: #{$i * 0.5}rem;
     }
+
+    .is-padding-horizontal-#{$i} {
+      padding-left: #{$i * 0.5}rem;
+      padding-right: #{$i * 0.5}rem;
+    }
+
+    .is-padding-#{$i} {
+      padding: #{$i * 0.5}rem;
+    }
+  }
+
+  .is-fixed {
+    position: fixed;
+  }
+
+  .is-full-width {
+    width: 100%;
+  }
+
+  .is-viewport-height {
+    height: 100vh;
+    overflow: auto;
   }
 </style>
