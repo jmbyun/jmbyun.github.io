@@ -6,9 +6,7 @@ module.exports = {
     'src/polyfills.js',
     'src/index.js',
   ],
-  output: {
-    publicUrl: '/',
-  },
+  copy: false,
   html: {
     title: pkg.productName,
     description: pkg.description,
@@ -22,4 +20,8 @@ module.exports = {
     require('poi-preset-bundle-report')(),
   ],
   plugins: [],
+  webpack(config) {
+    config.output.publicPath = '/dist/';
+    return config;
+  },
 };
