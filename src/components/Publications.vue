@@ -4,7 +4,7 @@
     <ul>
       <li
         class="publication"
-        v-for="publication in contents.publications"
+        v-for="publication in contents.publications.slice().reverse()"
         :key="publication.title"
       >
         <strong>
