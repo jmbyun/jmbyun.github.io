@@ -3,7 +3,7 @@
   "name": "jmbyun.github.io",
   "productName": "Jeongmin Byun",
   "description": "A personal homepage of Jeongmin Byun.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "dev": "poi",

@@ -1,7 +1,7 @@
 const path = require('path');
 const pkg = require('./package');
 
-module.exports = {
+module.exports = (options, req) => ({
   entry: [
     'src/polyfills.js',
     'src/index.js',
@@ -21,7 +21,9 @@ module.exports = {
   ],
   plugins: [],
   webpack(config) {
-    config.output.publicPath = '/dist/';
+    if (options.mode === 'production') {
+      config.output.publicPath = '/dist/';
+    }
     return config;
   },
-};
+});
