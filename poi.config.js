@@ -7,12 +7,13 @@ module.exports = {
     'src/index.js',
   ],
   output: {
-    publicUrl: '/dist',
+    publicUrl: '/',
   },
   html: {
     title: pkg.productName,
     description: pkg.description,
     template: path.join(__dirname, 'index.ejs'),
+    publicPath: '/dist/',
   },
   postcss: {
     plugins: [],
