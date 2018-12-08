@@ -83,10 +83,9 @@ export default {
 
   .body-column {
     position: relative;
-    padding-left: calc(((100vw - #{$container-width}) / 2) + (960px / 3));
-    padding-right: calc((100vw - #{$container-width}) / 2); 
+    margin-left: calc(((100vw - #{$container-width}) / 2) + (960px / 3));
     height: 100vh;
-    width: 100vw;
+    width: 960px * 2 / 3;
   }
 
   .credit {
@@ -109,10 +108,9 @@ export default {
 
     .body-column {
       position: relative;
-      padding-left: calc(100vw / 3);
-      padding-right: 0; 
+      margin-left: calc(100vw / 3);
       height: 100vh;
-      width: 100vw;
+      width: calc(100vw * 2 / 3);
     }
   }
 
@@ -126,8 +124,7 @@ export default {
 
     .body-column {
       position: relative;
-      padding-left: 0;
-      padding-right: 0; 
+      margin-left: 0;
       height: auto;
       width: 100%;
     }
