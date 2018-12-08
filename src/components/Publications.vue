@@ -4,7 +4,7 @@
     <ul>
       <li
         class="publication"
-        v-for="publication in contents.publications.slice().reverse()"
+        v-for="publication in publications.slice().reverse()"
         :key="publication.title"
       >
         <strong>
@@ -36,6 +36,7 @@ export default {
   name: 'publications',
   props: [
     'contents',
+    'publications',
   ],
   components: {
     VueMarkdown,

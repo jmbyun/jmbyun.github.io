@@ -11,14 +11,15 @@
     <index
       v-else
       :loading="loading"
-      :contents="contents"
+      :contents="contents.index"
+      :publications="contents.publications"
     ></index>
   </div>
 </template>
 
 <script>
 import Index from './Index';
-import { getIndexSheet } from '../lib/data';
+import { getData } from '../lib/data';
 export default {
   name: 'app',
   components: {
@@ -36,7 +37,7 @@ export default {
   methods: {
     async loadContents() {
       this.loading = true;
-      this.contents = await getIndexSheet();
+      this.contents = await getData();
       this.loading = false;
     }
   },

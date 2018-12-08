@@ -33,7 +33,7 @@ export default {
     border-radius: 50%;
     margin: 3rem auto;
     width: 40%;
-    max-width: 200px;
+    max-width: 180px;
     height: auto;
   }
 </style>

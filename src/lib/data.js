@@ -8,7 +8,7 @@ async function getSheetContent(sheet, range) {
   return await sheets.getContent(googleSheetDocId, sheet, range);
 }
 
-async function convertDictValue(type, value) {
+function convertDictValue(type, value) {
   switch ((type || '').trim().toLowerCase()) {
     case 'json':
       try {
@@ -18,22 +18,19 @@ async function convertDictValue(type, value) {
         return 'JSON Parse Failed';
       }
     case 'sheet':
-      return await getSheet(value);
+      return getSheet(value);
     default:
       return value;
   }
 }
 
 function convertDictContent(content) {
-  return Promise.all(
-    content.values
-      .map(row => convertDictValue(row[1], row[2]))
-  ).then(values => (
-    values.reduce((acc, curr, i) => ({
+  return content.values
+    .map(row => convertDictValue(row[1], row[2]))
+    .reduce((acc, curr, i) => ({
       ...acc,
       [content.values[i][0]]: curr,
-    }), {})
-  ));
+    }), {});
 }
 
 function convertTableContent(content) {
@@ -47,28 +44,13 @@ function convertTableContent(content) {
   ], []);
 }
 
-async function getSheetInfo(sheet) {
-  const content = await getSheetContent(sheet, 'A1:B1');
-  const sanitize = text => (text || '').trim().toLowerCase();
+export async function getData() {
+  const contents = await Promise.all([
+    getSheetContent('Index', 'A3:C'), 
+    getSheetContent('Publications', 'A2:E'),
+  ]);
   return {
-    type: sanitize(content.values[0][0]),
-    range: sanitize(content.values[0][1]),
+    index: convertDictContent(contents[0]),
+    publications: convertTableContent(contents[1]),
   };
-}
-
-export async function getSheet(sheet) {
-  const info = await getSheetInfo(sheet);
-  const content = await getSheetContent(sheet, info.range);
-  switch (info.type) {
-    case 'dictionary':
-      return await convertDictContent(content);
-    case 'table':
-      return convertTableContent(content);
-    default:
-      return await convertDictContent(content);
-  }
-}
-
-export async function getIndexSheet() {
-  return await getSheet('Index');
 }
