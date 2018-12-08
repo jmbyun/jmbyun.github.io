@@ -38,6 +38,7 @@ export default {
     async loadContents() {
       this.loading = true;
       this.contents = await getData();
+      document.title = this.contents.name;
       this.loading = false;
     }
   },
