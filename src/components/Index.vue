@@ -25,6 +25,15 @@
             :source="contents[sectionId]"
           ></vue-markdown>
         </div>
+        <div class="credit">
+          This website is based on 
+          <a 
+            href="https://github.com/jmbyun/jmbyun.github.io" 
+            target="_blank"
+          >
+            https://github.com/jmbyun/jmbyun.github.io
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -78,6 +87,18 @@ export default {
     padding-right: calc((100vw - #{$container-width}) / 2); 
     height: 100vh;
     width: 100vw;
+  }
+
+  .credit {
+    $credit-color: #bbb;
+    border-top: 1px solid $credit-color;
+    padding: 0.5rem 0;
+    font-size: 0.6rem;
+    color: $credit-color;
+
+    a {
+      text-decoration: underline;
+    }
   }
 
   @media screen and (max-width: $container-width) {
