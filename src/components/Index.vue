@@ -79,6 +79,7 @@ export default {
     left: calc((100vw - #{$container-width}) / 2); 
     height: 100vh;
     width: 960px / 3;
+    z-index: 120;
   }
 
   .body-column {
@@ -86,6 +87,7 @@ export default {
     margin-left: calc(((100vw - #{$container-width}) / 2) + (960px / 3));
     height: 100vh;
     width: 960px * 2 / 3;
+    z-index: 100;
   }
 
   .credit {
