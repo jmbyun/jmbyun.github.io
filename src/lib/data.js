@@ -1,6 +1,10 @@
 import { camelize } from 'humps';
 import sheets from './sheets';
-import { googleApiKey, googleSheetDocId } from '../../config';
+
+const {
+  googleApiKey,
+  googleSheetDocId,
+ } = window.__PAW_CONFIG__;
 
 sheets.setKey(googleApiKey);
 
