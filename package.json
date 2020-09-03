@@ -28,6 +28,6 @@
     "poi": "^9.0.0",
     "poi-preset-bundle-report": "^2.0.0",
     "sass-loader": "^7.1.0",
-    "serve": "^6.1.0"
+    "serve": "^10.1.2"
   }
 }
