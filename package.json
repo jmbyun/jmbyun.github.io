@@ -18,7 +18,7 @@
     "bulma": "^0.7.2",
     "font-awesome": "^4.7.0",
     "humps": "^2.0.1",
-    "node-sass": "^4.10.0",
+    "node-sass": "^4.13.1",
     "normalize.css": "^7.0.0",
     "object-assign": "^4.1.1",
     "promise-polyfill": "^6.0.2",
